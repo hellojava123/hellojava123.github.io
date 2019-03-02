@@ -78,7 +78,8 @@ theme: yw
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
-server:
+  type: git
+  repo: https://github.com/hellojava123/hellojava123.github.io.git
+  branch: master
   compress: true # 开启压缩
 
