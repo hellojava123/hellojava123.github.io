@@ -1,0 +1,33 @@
+
+# html lang
+language: en
+
+# 导航栏
+menu:
+#  博客: http://localhost:4000/
+  GitHub: https://github.com/stateIs0
+  About Me: /2016/08/25/2016-08-26-about/
+
+# 图标
+favicon:  /favicon.ico
+
+# 建议页数大于1开启
+paginator: false
+
+# Header
+header:
+  blank: false     # 头部链接是否新标签页打开
+
+# Footer
+footer:
+  display: false               # 是否显示footer
+  context: "© thinkinjava.cn"     # footer内容
+
+# 文章页
+post:
+  blank: false        # 文章是否新标签页打开
+  backHome: false     # 文章末尾是否显示返回首页
+  backHome_hr: false  # 返回首页前是否显示分割线
+  backHome_prefix: "↶ "       # 返回首页的前缀内容
+  backHome_content: "返回首页"  # 返回首页的主体内容
+  backHome_suffix: ""          # 返回首页的后缀内容
